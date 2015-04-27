@@ -5,6 +5,16 @@ A simple tool to listen for important log messages and alert a user.
 
 **It currently only supports listening for the Covenant Eyes Windows client.**
 
+
+Usage
+=====
+
+*Note: Be sure to run with **Admin Privileges**:*
+
+```bash
+./alerter
+```
+
 Building
 ========
 
