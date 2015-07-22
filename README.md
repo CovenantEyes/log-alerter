@@ -9,7 +9,7 @@ A simple tool to listen for important log messages and alert a user.
 Usage
 =====
 
-*Note: Be sure to run with **Admin Privileges**:*
+*Note: Be sure to run with *Admin Privileges*:*
 
 ```bash
 ./alerter
@@ -18,14 +18,11 @@ Usage
 Building
 ========
 
-Get a recent version of GHC (it's been tested with GHC 7.8.4).
-  * For Windows, use [MinGHC](https://github.com/fpco/minghc/blob/master/README.md).
+Get a recent version of [stack](https://github.com/commercialhaskell/stack/releases/latest).
 
 Then run
 
 ```bash
-cabal update
-cabal sandbox init
-cabal install --dependencies-only
-cabal run # this will build and run, the binary is in the dist folder
+stack build
+stack exec .
 ```

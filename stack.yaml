@@ -1,0 +1,6 @@
+packages:
+- '.'
+resolver: nightly-2015-07-12
+extra-deps:
+- fsnotify-0.1.0.3
+- Win32-notify-0.3.0.1
