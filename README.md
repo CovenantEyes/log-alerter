@@ -24,5 +24,5 @@ Then run
 
 ```bash
 stack build
-stack exec .
+stack exec alerter
 ```
